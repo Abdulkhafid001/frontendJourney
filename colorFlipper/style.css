@@ -1,0 +1,37 @@
+/* apply general styles to app */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.container{
+    width: 80%;
+    height: 400px;
+    background-color: red;
+    margin: 30px auto;
+    position: relative;
+}
+.color-name-value{
+    background-color: #000;
+    width: 40%;
+    margin:30px auto;
+    color: white;
+    padding: 0.3em 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.color-name-value p{
+    margin: 0;
+    font-weight: bolder;
+    font-size: 38px;
+}
+.container button{
+    padding: 0.7em 0;
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    width: 15%;
+    margin: auto;
+}
